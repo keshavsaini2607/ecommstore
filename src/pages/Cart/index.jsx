@@ -50,7 +50,7 @@ const Cart = () => {
       <Layout>
          <div className="flex h-[calc(100vh-10vh)] w-[100vw] overflow-hidden">
             <div className="w-[40%] h-[calc(100vh-10vh)] bg-gray-200 p-4 overflow-scroll">
-               <span className="text-xl capitalize">You shopping cart</span>
+               <span className="text-xl capitalize">Your shopping cart</span>
                {cartItems.map((item) => (
                   <div className="flex flex-col gap-3 items-center mb-5 border-b-[1px] border-b-gray-500 p-2 mt-4">
                      <div className="flex gap-4">
